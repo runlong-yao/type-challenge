@@ -16,4 +16,6 @@ type cases = [
 ];
 
 // ============= Your Code Here =============
+type ToString<T extends number> = `${T}`;
+type Plus<T, U> = any;
 type Square<N extends number> = number;
